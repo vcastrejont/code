@@ -93,10 +93,11 @@ select, input{
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
-    padding: .25rem .5rem;
     font-size: .875rem;
     line-height: 1.5;
     border-radius: .2rem;
+    display: inline-block;
+    width: 100px;
 }
 
 @import "mediaqueries";
