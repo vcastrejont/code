@@ -12,6 +12,7 @@ body{
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size:16px;
   background-color: $gray;
+  padding: 90px;
 }
 
 nav{
@@ -32,6 +33,9 @@ aside{
   grid-area: sidebar;
   background-color: $white;
   padding:20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 6px 8px rgba(102,119,136,.03), 0 1px 2px rgba(102,119,136,.3);
 
 }
 footer{
@@ -53,6 +57,8 @@ footer{
       border: 1px solid $dark;
       border-radius: 5px;
       padding: 1rem;
+      box-shadow: 0 6px 8px rgba(102,119,136,.03), 0 1px 2px rgba(102,119,136,.3);
+      background-color: $white;
         animation: fadein 2s;
         -moz-animation: fadein 2s; /* Firefox */
         -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -97,7 +103,7 @@ select, input{
     line-height: 1.5;
     border-radius: .2rem;
     display: inline-block;
-    width: 100px;
+    width: 100%;
 }
 
 @import "mediaqueries";
