@@ -17,7 +17,7 @@ class Aside extends React.Component {
             <div className="form-group">
               <label htmlFor="filterCtrl">Filter</label>
               <select id="filterCtrl" onChange={(e) => {
-                        this.props.dispatch(activeStatus(e.target.value== "true" ? true: false));
+                        this.props.dispatch(activeStatus(e.target.value=== "true" ? true: false));
                     }}>
                 <option value="true">{this.state.filters[0]}</option>
                 <option value="false">{this.state.filters[1]}</option>

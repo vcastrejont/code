@@ -9,7 +9,7 @@ class Posts extends React.Component {
   }
 
   render() {
-    const { posts, users } = this.props;
+    const { posts } = this.props;
 
     return (
       <section id="cards">

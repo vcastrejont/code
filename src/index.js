@@ -5,8 +5,7 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import App from './components/App'
 import Store from './store'
-import { filterText, activeStatus, sortBy } from './actions/filters';
-import getVisiblePosts from './selectors/posts';
+
 
 const store = createStore(Store,applyMiddleware(thunk));
 

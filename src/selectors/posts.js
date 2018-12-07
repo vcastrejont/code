@@ -5,7 +5,7 @@ export default (posts, { text, sortBy, activeStatus }) => {
             post.body.toLowerCase().includes(text.toLowerCase()) ;
 
             const status =
-                post.active==activeStatus  ? true : false;
+                post.active===activeStatus  ? true : false;
 
         return status && textMatch;
     }).sort((post1, post2) => {
